@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-throw-literal */
+import fetch from "cross-fetch";
 import merge from "lodash.merge";
 import logLevel, { levels, LogLevelDesc } from "loglevel";
 
